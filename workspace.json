@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "carbon-app": "apps/carbon-app",
-    "carbon-app-e2e": "apps/carbon-app-e2e"
+    "carbon-app-e2e": "apps/carbon-app-e2e",
+    "shared-components": "libs/shared/components"
   }
 }

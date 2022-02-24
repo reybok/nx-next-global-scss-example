@@ -1,3 +1,4 @@
+import { Greeting } from '@nextjs-playground/shared/components';
 import styles from './index.module.scss';
 
 export function Index() {
@@ -10,12 +11,7 @@ export function Index() {
     <div className={styles.page}>
       <div className="wrapper">
         <div className="container">
-          <div id="welcome">
-            <h1>
-              <span> Hello there, </span>
-              Welcome carbon-app 👋
-            </h1>
-          </div>
+          <Greeting location="nx playground" />
 
           <div id="hero" className="rounded">
             <div className="text-container">
